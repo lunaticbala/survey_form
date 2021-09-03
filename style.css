@@ -1,0 +1,58 @@
+body{
+    height: 180vh;
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+
+.part1{
+       background: grey;
+       border-radius: 5px;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+
+}
+
+.survey{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+.position{
+    padding-top: 35px;
+}
+.rating{
+    display: flex;
+    color:rgb(160, 110, 110);
+    
+
+}
+
+.rating input{
+    display: none;
+}
+
+.rating input + label{
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.rating input:checked + label ~ label{
+    color: yellow;
+}
+
+.rating label :active{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+h5{
+    padding-top: 20px;
+}
+
