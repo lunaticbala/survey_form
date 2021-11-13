@@ -1,29 +1,5 @@
-body{
-    height: 180vh;
-    width: 80%;
-    border: 1px solid black;
-    margin-left: 20px;
-}
 
 
-.part1{
-       background: grey;
-       border-radius: 5px;
-       width: 100%;
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-
-}
-
-.survey{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    
-    
-}
 
 .position{
     padding-top: 35px;
